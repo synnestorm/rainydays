@@ -33,7 +33,7 @@ jacketfour.html, jacketfive.html, jacketsix.html and jacketseven.html **/
 }
 
 .add-btn {
-    font-size: 17px;
+    font-size: 15px;
     background-color: #0a3641;
     text-decoration: none;
     color: white;
@@ -102,9 +102,9 @@ select {
 
 @media screen and (max-width: 600px) {
     .logo {
-        width: 250px;
-        padding-left: 50px;
-        padding-right: 50px;
+        width: 300px;
+        padding-left: 60px;
+        padding-top: 70px;
     }
     .jacket-info {
         top: 800px;
@@ -113,5 +113,9 @@ select {
     .jacket-image {
         width: 500px;
         margin: 10px;
+    }
+
+    nav ul {
+        top: -274px;
     }
 }

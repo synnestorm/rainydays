@@ -297,12 +297,12 @@ button[type="submit"]:hover {
 
 @media screen and (max-width: 600px) {
     .logo {
-        width: 250px;
-        padding-left: 50px;
-        padding-top: 50px;
+        width: 300px;
+        padding-left: 60px;
+        padding-top: 70px;
     }
     nav ul {
-        top: -237px;
+        top: -274px;
     }
     h1 {
         font-size: 30px;
