@@ -80,6 +80,9 @@ select {
 }
 
 @media screen and (max-width: 900px) {
+    .logo {
+        width: 300px;
+    }
     .jacket-image {
         width: 800px;
         padding-left: 100px;
@@ -98,6 +101,11 @@ select {
 }
 
 @media screen and (max-width: 600px) {
+    .logo {
+        width: 250px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
     .jacket-info {
         top: 800px;
         left: 10px;
