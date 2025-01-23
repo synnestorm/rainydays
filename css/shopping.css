@@ -1,0 +1,81 @@
+/** Stylesheet for shoppingcart.html **/
+
+.shoppingcart {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 500px;
+    background-color: #c1cfd3;
+    border-radius: 10%;
+}
+
+main .fa-bag-shopping {
+    font-size: 150px;
+    padding-top: 10px;
+}
+
+.empty {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color:#356b79;
+    padding-bottom: 50px;
+}
+
+.continue-btn {
+    padding: 10px;
+    background-color: #0a3641;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    margin-left: 317px;
+}
+
+.continue-btn:hover {
+    background-color: white;
+    color:#0a3641;
+}
+
+.logo-bottom-two {
+    display: block;
+    max-width: 100%;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+}
+
+/** Media queries **/
+
+@media screen and (max-width: 1200px) {
+    .shoppingcart {
+        width: 600px;
+        height: 400px;
+    }
+    .continue-btn {
+        margin-left: 227px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .shoppingcart {
+        width: 500px;
+        height: 400px;
+    }
+
+    .continue-btn {
+        margin-left: 180px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .shoppingcart {
+        width: 400px;
+        height: 500px;
+    }
+    .continue-btn {
+        margin-left: 120px;
+    }
+}

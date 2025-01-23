@@ -1,0 +1,144 @@
+/** This is the stylesheet for: contact.html, login.html, search.html and 
+success.html **/
+
+/** Contact page **/
+h1 {
+    font-size: 50px;
+    font-style: italic;
+    background: linear-gradient(#565A60, #4B71AC);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: "Instrument Sans", Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.center {
+    margin: auto;
+    width: 28%;
+    border: 2px solid transparent;
+    padding-bottom: 30px;
+}
+
+.link {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.contact-form {
+    background-color: #ECECEC;
+    padding: 30px;
+    margin: auto;
+}
+
+textarea {
+    border-radius: 4px;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #A19EA1;
+}
+
+textarea:hover {
+    box-shadow: 2px 2px 5px rgba(88, 88, 88, 0.94);
+}
+
+button[type="submit"] {
+    background-color: white;
+    width: 300px;
+    display: block;
+    font-weight: bold;
+    font-family: "Instrument Sans", Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    color: #0a3641;
+    margin-top: 10px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0a3641;
+    color: white;
+    text-decoration: none;
+}
+
+.logo-bottom-two {
+    display: block;
+    max-width: 100%;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+}
+
+/** Log in **/
+
+.login-form {
+    background-color: #ececec;
+    padding: 30px;
+    margin: auto;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+}
+
+/** Search page **/
+
+.search-btn {
+    padding: 10px;
+    background-color: #c1cfd3;
+    text-align: center;
+    color: #0a3641;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer; 
+}
+
+.search {
+    color: transparent;
+}
+
+.search-form {
+    padding-bottom: 80px;
+    border: 1px transparent;
+    margin-bottom: 100px;
+    background-color: #ECECEC;
+    border-radius: 10px;
+
+}
+
+/** Success Page **/
+
+.p-success {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+/** Media queries **/
+
+@media screen and (max-width: 1200px) {
+    .center {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .continue-btn {
+        margin-left: 180px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .center {
+        width: 60%;
+    }
+
+    .p-success {
+        text-align: start;
+        padding: 30px;
+        font-size: 20px;
+    }
+}

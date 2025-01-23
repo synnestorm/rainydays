@@ -1,0 +1,36 @@
+/** The styles for jackets.html **/
+
+div img {
+    max-width: 100%;
+    width: 700px;
+    border: 2px solid grey;
+}
+
+div img:hover {
+    opacity: 0.5;
+    background-color: #0a3641;
+}
+
+.jacket-selection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    padding: 25px 25px 25px 25px;
+}
+
+.about-product span {
+    color: #0a3641;
+    font-weight: bold;
+    font-size: larger;
+}
+
+/** Media queries **/
+
+@media screen and (max-width: 1500px) {
+    .about-product {
+        text-align: center;
+    }
+    
+}

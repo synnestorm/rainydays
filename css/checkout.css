@@ -1,0 +1,50 @@
+/** Stylesheet for checkout.html page **/
+
+.checkout-form {
+    background-color: #c1cfd3;
+    padding: 30px;
+    margin: auto;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+}
+
+.p-checkout {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color:#0a3641;
+}
+
+.checkout-btn {
+    display: block;
+    padding: 10px;
+    background-color: #0a3641;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+.checkout-btn:hover {
+    background-color: white;
+    color: #0a3641;
+    font-weight: bold;
+}
+
+.logo-bottom-two {
+    display: block;
+    max-width: 100%;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+}
+
+/** Media queries **/
+
+@media screen and (max-width: 600px) {
+    .checkout-form {
+        padding: 20px;
+    }
+}
