@@ -31,7 +31,7 @@ jacketfour.html, jacketfive.html, jacketsix.html and jacketseven.html **/
     padding-right: 50px;
 }
 
-#info h2 {
+div h2 {
    font-weight: bold;
    font-size: 35px;
    color: #0a3641; 
