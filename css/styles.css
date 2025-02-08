@@ -5,6 +5,7 @@ headlines. This also includes the styles for index page **/
 }
 
 body {
+    max-width: 1920px;
     background-color: white;
     margin: 0 auto;
     font-family: "Instrument Sans", Verdana, Geneva, Tahoma, sans-serif;
