@@ -194,22 +194,25 @@ label {
 }
 
 button[type="submit"] {
-    background-color: white;
-    width: 200px;
+    background-color: #0a3641;
+    max-width: 100%;
+    width: 300px;
     display: block;
     font-weight: bold;
-    font-family: "Instrument Sans", Verdana, Geneva, Tahoma, sans-serif;
-    color: grey;
-    margin-top: 10px;
-    padding: 5px;
+    font-size: 18px;
+    font-family: 'sans-serif', Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
     margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
     text-align: center;
     cursor: pointer;
 }
 
 button[type="submit"]:hover {
-    background-color: #0a3641;
-    color: white;
+    background-color: #ffffff;
+    color: #0a3641;
 }
 
 .logo-bottom {

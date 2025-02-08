@@ -44,14 +44,14 @@ textarea:hover {
 }
 
 button[type="submit"] {
-    background-color: white;
+    background-color: #0a3641;
     width: 300px;
     display: block;
     font-weight: bold;
     font-family: "Instrument Sans", Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
     font-size: 18px;
-    color: #0a3641;
+    color: #ffffff;
     margin-top: 10px;
     padding: 10px;
     margin: auto;
@@ -61,8 +61,8 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: #0a3641;
-    color: white;
+    background-color: #ffffff;
+    color: #0a3641;
     text-decoration: none;
 }
 
