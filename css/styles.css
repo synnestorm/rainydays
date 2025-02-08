@@ -336,11 +336,17 @@ button[type="submit"]:hover {
 }
 
 @media only screen and (max-width: 430px) {
+    body {
+        overflow-x: hidden;
+    }
+    h1 {
+        font-size: 25px;
+    }
     .logo {
-        width: 250px;
+        width: 220px;
     }
     nav ul {
-        top: -205px;
+        top: -189px;
     }
     .info-text {
         font-size: 15px;
