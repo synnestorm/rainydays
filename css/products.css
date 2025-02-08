@@ -12,6 +12,13 @@ jacketfour.html, jacketfive.html, jacketsix.html and jacketseven.html **/
     
 }
 
+.product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
 .jacket-image {
     max-width: 100%;
     height: auto;
@@ -19,9 +26,6 @@ jacketfour.html, jacketfive.html, jacketsix.html and jacketseven.html **/
 }
 
 .jacket-info {
-    position: absolute;
-    top: 620px;
-    left: 1100px;
     font-size: 20px;
     text-align: left;
 }
@@ -58,61 +62,14 @@ select {
 
 /** Media queries **/
 
-@media screen and (max-width: 1500px) {
-    .jacket-image {
-        width: 800px;
-    }
-
-    .jacket-info {
-        top: 600px;
-        left: 900px;
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    .jacket-image {
-        width: 700px;
-    }
-    .jacket-info {
-        top: 500px;
-        left: 800px;
-    }
-}
-
-@media screen and (max-width: 900px) {
-    .logo {
-        width: 300px;
-    }
-    .jacket-image {
-        width: 800px;
-        padding-left: 100px;
-        padding-bottom: 400px;
-    }
-
-    .jacket-info {
-        top: 1200px;
-        left: 10px;
-        margin: 50px;
-    }
-
-    footer {
-        margin-top: 150px;
-    }
-}
-
 @media screen and (max-width: 600px) {
     .logo {
         width: 300px;
         padding-left: 60px;
         padding-top: 70px;
     }
-    .jacket-info {
-        top: 800px;
-        left: 10px;
-    }
-    .jacket-image {
-        width: 500px;
-        margin: 10px;
+    .product {
+        flex-direction: column;
     }
 
     nav ul {
