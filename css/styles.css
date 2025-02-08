@@ -352,6 +352,9 @@ button[type="submit"]:hover {
         top: -187px;
         height: 262px;
     }
+    nav a {
+        padding: 6px 10px;  
+    }
     .info-text {
         font-size: 15px;
         padding: 0 130px;
