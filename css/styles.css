@@ -251,6 +251,7 @@ button[type="submit"]:hover {
 
     header {
         position: relative;
+        overflow: hidden;
         max-width: 100%;
     }
 
