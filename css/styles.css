@@ -237,10 +237,6 @@ button[type="submit"]:hover {
         display: block;
         float: none;
     }
-
-    h4 {
-        margin-top: 50px;
-    }
 }
 
 @media only screen and (max-width: 900px) {
@@ -309,6 +305,10 @@ button[type="submit"]:hover {
     h1 {
         font-size: 30px;
         margin-top: 50px;
+    }
+    h2 {
+        font-size: 25px;
+        margin-top: 10px;
     }
     .info-text {
         font-size: 17px;
