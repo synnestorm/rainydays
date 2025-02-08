@@ -31,10 +31,10 @@ jacketfour.html, jacketfive.html, jacketsix.html and jacketseven.html **/
     padding-right: 50px;
 }
 
-.price {
-    font-weight: bold;
-    font-size: 35px;
-    color: #0a3641;
+h2 {
+   font-weight: bold;
+   font-size: 35px;
+   color: #0a3641; 
 }
 
 .add-btn {
@@ -59,6 +59,13 @@ jacketfour.html, jacketfive.html, jacketsix.html and jacketseven.html **/
 select {
     padding: 6px;
     font-size: 15px;
+}
+
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+    color:#0a3641;
+    font-size: larger;
 }
 
 /** Media queries **/
