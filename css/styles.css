@@ -350,6 +350,7 @@ button[type="submit"]:hover {
     }
     nav ul {
         top: -187px;
+        height: 262px;
     }
     .info-text {
         font-size: 15px;
