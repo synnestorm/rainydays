@@ -33,6 +33,18 @@ img {
     font-size: x-large;
 }
 
+h3 {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 35px;
+    font-style: italic;
+    background: linear-gradient(#565A60, #4B71AC);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: "Instrument Sans", Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 15px;
+}
+
 .image-collage { grid-area: header; }
 .text1  { 
     grid-area: left;
@@ -68,6 +80,13 @@ img {
 .image1 {
     max-width: 100%;
     width: 600px;
+}
+
+footer h4 {
+    text-align: center;
+    text-transform: uppercase;
+    color:#0a3641;
+    font-size: larger;
 }
 
 /** Media queries **/
