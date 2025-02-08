@@ -338,7 +338,7 @@ button[type="submit"]:hover {
         overflow-x: hidden;
     }
     header {
-        min-height: 262px;
+        min-height: 250px;
     }
     h1 {
         font-size: 25px;
