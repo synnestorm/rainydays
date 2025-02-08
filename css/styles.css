@@ -228,7 +228,7 @@ button[type="submit"]:hover {
 
 /* Media queries */
 
-@media screen and (max-width: 1500px) {
+@media only screen and (max-width: 1500px) {
     .logo-bottom {
         width: 50%;
         padding-top: 10px;
@@ -244,13 +244,14 @@ button[type="submit"]:hover {
     }
 }
 
-@media screen and (max-width: 900px) {
+@media only screen and (max-width: 900px) {
     .logo {
         width: 300px;
     }
 
     header {
         position: relative;
+        max-width: 100%;
     }
 
     nav {
@@ -299,14 +300,12 @@ button[type="submit"]:hover {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     .logo {
-        width: 300px;
-        padding-left: 60px;
-        padding-top: 70px;
+        width: 250px;
     }
     nav ul {
-        top: -274px;
+        top: -220px;
     }
     h1 {
         font-size: 30px;
@@ -331,5 +330,15 @@ button[type="submit"]:hover {
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .logo {
+        width: 200px;
+        margin: auto;
+    }
+    nav ul {
+        top: -200px;
     }
 }

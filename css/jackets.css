@@ -28,7 +28,7 @@ div img:hover {
 
 /** Media queries **/
 
-@media screen and (max-width: 1500px) {
+@media only screen and (max-width: 1500px) {
     .about-product {
         text-align: center;
     }

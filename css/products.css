@@ -63,7 +63,7 @@ select {
 
 /** Media queries **/
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     .logo {
         width: 300px;
         padding-left: 60px;

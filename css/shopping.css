@@ -49,7 +49,7 @@ main .fa-bag-shopping {
 
 /** Media queries **/
 
-@media screen and (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
     .shoppingcart {
         width: 600px;
         height: 400px;
@@ -59,7 +59,7 @@ main .fa-bag-shopping {
     }
 }
 
-@media screen and (max-width: 900px) {
+@media only screen and (max-width: 900px) {
     .shoppingcart {
         width: 500px;
         height: 400px;
@@ -70,7 +70,7 @@ main .fa-bag-shopping {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     .shoppingcart {
         width: 400px;
         height: 500px;

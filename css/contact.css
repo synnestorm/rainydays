@@ -119,19 +119,19 @@ button[type="submit"]:hover {
 
 /** Media queries **/
 
-@media screen and (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
     .center {
         width: 50%;
     }
 }
 
-@media screen and (max-width: 900px) {
+@media only screen and (max-width: 900px) {
     .continue-btn {
         margin-left: 180px;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     .center {
         width: 60%;
     }
