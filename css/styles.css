@@ -15,7 +15,7 @@ body {
 header,
 footer {
     background-image: url("../images/header-background-min1.jpg");
-    min-height: 254px;
+    min-height: 250px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -338,6 +338,9 @@ button[type="submit"]:hover {
 @media only screen and (max-width: 430px) {
     body {
         overflow-x: hidden;
+    }
+    header {
+    min-height: 250px;
     }
     h1 {
         font-size: 25px;
