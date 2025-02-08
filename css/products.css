@@ -28,6 +28,7 @@ jacketfour.html, jacketfive.html, jacketsix.html and jacketseven.html **/
 .jacket-info {
     font-size: 20px;
     text-align: left;
+    padding-right: 20px;
 }
 
 .price {
@@ -70,6 +71,9 @@ select {
     }
     .product {
         flex-direction: column;
+    }
+    .jacket-info {
+        padding: 50px;
     }
 
     nav ul {
