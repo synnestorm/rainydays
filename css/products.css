@@ -63,17 +63,6 @@ select {
 
 /** Media queries **/
 
-@media only screen and (max-width: 900px) {
-    
-    nav ul {
-        top: -295px;
-    }
-
-    nav a {
-        padding: 7px 10px;
-    }
-}
-
 @media only screen and (max-width: 600px) {
     .logo {
         width: 300px;
@@ -87,9 +76,6 @@ select {
         padding: 50px;
     }
 
-    nav ul {
-        top: -260px;
-    }
 }
 
 @media only screen and (max-width: 430px) {
@@ -99,10 +85,5 @@ select {
     header {
     min-height: 250px;
     }
-    nav ul {
-        height: 262px;
-    }
-    nav a {
-        padding: 5px 10px;  
-    }
+    
 }
