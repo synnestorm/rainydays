@@ -343,6 +343,9 @@ button[type="submit"]:hover {
     h1 {
         font-size: 25px;
     }
+    nav ul {
+        height: 262px;
+    }
     nav a {
         padding: 5px 10px;  
     }
