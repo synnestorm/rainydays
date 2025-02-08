@@ -91,3 +91,18 @@ select {
         top: -260px;
     }
 }
+
+@media only screen and (max-width: 430px) {
+    body {
+        overflow-x: hidden;
+    }
+    header {
+    min-height: 250px;
+    }
+    nav ul {
+        height: 262px;
+    }
+    nav a {
+        padding: 5px 10px;  
+    }
+}
