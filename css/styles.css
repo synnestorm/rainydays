@@ -156,14 +156,14 @@ span {
 
 /** Footer **/
 
-h4 {
+.newsletter-h {
     text-align: center;
     text-transform: uppercase;
     color:#0a3641;
     font-size: larger;
 }
 
-.newsletter {
+.newsletter-p {
     text-align: center;
     font-weight: bold;
     color:#0a3641;
