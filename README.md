@@ -1,8 +1,8 @@
-Goal 
+# Goal 
 
 To put into practice everything you’ve learned about HTML and CSS over this course by bringing your design alive. 
 
-Brief 
+## Brief 
 • You must deliver a properly functioning, responsive website for the assignment brief you chose in Design 1. The website should be able to navigate from one page to another from the navigation menu as well as from buttons and/or arrows. 
 
 • The site needs to have every page listed in the site architecture on your chosen brief. Certain functionality requiring JavaScript can be mimicked; for example, a login page could link across from the ‘Sign in’ button. This assignment should be written in purely HTML and CSS.
