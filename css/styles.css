@@ -262,7 +262,7 @@ button[type="submit"]:hover {
     background: #0a3641;
     position: absolute;
     top: -295px;
-    left: 0px;
+    left: 50px;
     width: 120px;
     height: 258px;
   }
