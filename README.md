@@ -1,28 +1,48 @@
-# Goal 
+# HTML & CSS Course Assignment: Rainydays
 
-To put into practice everything you’ve learned about HTML and CSS over this course by bringing your design alive. 
+To put into practice everything I've learned about HTML and CSS over this course by bringing my design alive.
 
-## Brief 
-• You must deliver a properly functioning, responsive website for the assignment brief you chose in Design 1. The website should be able to navigate from one page to another from the navigation menu as well as from buttons and/or arrows. 
+## Description
 
-• The site needs to have every page listed in the site architecture on your chosen brief. Certain functionality requiring JavaScript can be mimicked; for example, a login page could link across from the ‘Sign in’ button. This assignment should be written in purely HTML and CSS.
+This is Rainydays - an online store selling durable jackets for all kinds of weather. Whether you are going hiking, kayaking or skiing; rainydays jackets are designed for your everyday adventure.
 
-• Ensure that all of your images are compressed to around 200KB.
+## Built With
 
-• The HTML should be semantic, neatly formatted and valid. 
+- HTML5
+- CSS3
 
-• The CSS should follow the DRY principle and be easy to read. 
+## Getting Started
 
-• The website should be responsive and look good at every screen size with no 
-horizontal scrollbars. Use Flexbox and CSS Grids where appropriate. Please do not 
-use a CSS framework like Bootstrap; we want to see that you can build responsive 
-sites without the help of a framework. 
+### Installing
 
-• The site should be WCAG compliant, SEO, performance and accessibility should be 
-taken into account.
+1. Clone the repo:
 
-• Each page should have a unique meta name = "description", title, and h1.
+```bash
+git clone git@github.com:synnestorm/rainydays.git
+```
 
-• You should not use copied code in your submission. All code submitted must be 
-written by yourself. You may use external sources to show you how to achieve 
-specific effects, which should be included in your report.
+2. Install the dependencies:
+
+```
+npm install
+```
+
+### Running
+
+To run the app, run the following commands:
+
+```bash
+npm run start
+```
+
+## Contact
+
+[Github](www.github.com/synnestorm)
+
+## License
+
+You can link to your license file here if you're using one, or mention what license the codebase falls under. If you're unsure then you can simply delete this section.
+
+## Acknowledgments
+
+This is where you can add any acknowledgements if you'd like, such as to people who have helped you or any code snippets you'd like to mention. You can delete this section if you don't have any acknowledgements to make.
