@@ -37,4 +37,4 @@ npm run start
 
 ## Contact
 
-[Github profile](www.github.com/synnestorm)
+[My Github Profile](http://www.github.com/synnestorm)
